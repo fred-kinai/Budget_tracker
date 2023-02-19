@@ -29,7 +29,7 @@
             <tr>
                 <th>Date</th>
                 <th>Check #</th>
-                <th>Description</th>
+                <th>Descriptions</th>
                 <th>Amount</th>
             </tr>
         </thead>
