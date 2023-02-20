@@ -9,7 +9,13 @@ function getTransactionFiles(string $dirPath ): array
         if (is_dir($file)){
             continue;
         }
-        $files[] = $file;
+        $files[] = $dirPath .  $file;
     }
     return $files;
+}
+
+function getTransactionFiles(string $fileName) : array{
+    if(! file_exists($fileName)){
+        trigger_error('File"'. $fileName . '" does not exist. ', E_USER_ERROR);
+    }
 }
