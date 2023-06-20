@@ -9,6 +9,8 @@
                 text-align: center;
             }
 
+
+            
             table tr th, table tr td {
                 padding: 5px;
                 border: 1px #eee solid;
